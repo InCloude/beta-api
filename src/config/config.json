@@ -1,0 +1,34 @@
+{
+  "development": {
+    "username": "root",
+    "password": "secret",
+    "database": "beta-api_development",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "port": "3306"
+  },
+  "test": {
+    "username": "root",
+    "password": "1234",
+    "database": "beta-api_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "logging": false
+  },
+  "production": {
+    "username": "root",
+    "password": "mysql7937",
+    "database": "beta-api_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "pipelines": {
+    "username": "root",
+    "password": "let_me_in",
+    "database": "pipelines",
+    "host": "127.0.0.1",
+    "port": 3306,
+    "dialect": "mysql",
+    "logging": false
+  }
+}
